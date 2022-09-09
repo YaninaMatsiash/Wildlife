@@ -178,3 +178,143 @@ h1{
 .btn_donate:hover{
  background-color: #E39128;
 }
+.articles_title{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #333333;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+.articles_text{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #666666; 
+  padding-bottom: 120px; 
+}
+.slider{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 240px;
+  align-items: center;
+}
+.arrow{
+  display: flex;
+  align-items: center;
+  width: 25px;
+}
+.arrow:hover{
+  filter: invert(56%) sepia(95%) saturate(900%) hue-rotate(-15deg) brightness(100%)
+  contrast(87%);  
+}
+.img_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.img_artiles_deer{
+  width: 300px;
+  background-image: url(../img/deer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.img_artiles_squirrel{
+  width: 300px;
+  background-image: url(../img/squirrel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.img_artiles_bird{
+  width: 300px;
+  background-image: url(../img/bird.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+.img_title{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  color: #F7F7F7;  
+  margin-top: 247px;
+  margin-bottom: 10px;
+}
+.img_description{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+  color: #F7F7F7;  
+  margin-bottom: 40px;
+}
+.title_form{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+  color: #333333;  
+  margin-bottom: 59px;
+}
+.form_wrap{
+  display: flex;
+  
+  align-items: stretch;
+  justify-content: center;
+  margin-bottom: 239px;
+}
+.form-size{
+width: 540px;
+padding-left: 15px;
+border: 1px solid #666666;
+background: none;
+height: 59px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 27px;
+align-items: center;
+color: #666666;
+}
+.form-btns{
+  width: 120px;
+  height: 59px;
+  background: #CD6326;
+  border: 1px solid #CD6326;
+  border-radius: 0px 5px 5px 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  color: #F7F7F7;  
+  margin-left: -5px;
+}
+.form-btns:hover{
+  background: #E39128;  
+  border: 1px solid #E39128;  
+}
+footer{
+  width: 100%;
+  background-image: url(../img/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
